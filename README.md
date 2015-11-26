@@ -33,9 +33,9 @@ O(1)
 O(logN)
 O(N)
 O(NlogN)
-O(N^2)
-O(2^N)
-O(N^N)
+O(N<sup>2</sup>)
+O(2<sup>N</sup>)
+O(N<sup>N</sup>)
 
 
 
