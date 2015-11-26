@@ -15,8 +15,9 @@ Technical interviews can be **difficult**, but it doesn't have to be. Everyone h
 #### Proofs
 Proof by Induction</br>
 *  Assert the Base Case
-  *  Establish a theorem tha tis true for some small trivial value
-*  Inductive Hypothesis The theorem is assumed to be true for all cases up to some limit k
+  *  Establish a theorem that is true for some small trivial value
+*  Inductive Hypothesis 
+  *  The theorem is assumed to be true for all cases up to some limit k
 *  Prove True for k+1th case
 
 Proof by Counterexample</br>
@@ -25,4 +26,16 @@ Proof by Counterexample</br>
 Proof by Contradiction</br>
 *  Assume the theorem is false
 *  Show that the assumption implies that some known property is false, hence the original assumption was erroneous
+
+#### Time Complexity
+
+O(1)
+O(logN)
+O(N)
+O(NlogN)
+O(N^2)
+O(2^N)
+O(N^N)
+
+
 
