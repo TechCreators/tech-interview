@@ -14,7 +14,7 @@ Helpful Resources
 ## Basics
 
 #### Proofs
-Proof by Induction
+Proof by Induction</br>
 1.  Assert the Base Case
   *  Establish a theorem tha tis true for some small trivial value
 2.  Inductive Hypothesis 
