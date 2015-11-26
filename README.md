@@ -2,23 +2,20 @@
 Technical interviews can be **difficult**, but it doesn't have to be. Everyone has their own approach to acing them. Here's my take...
 
 ### Table of Contents
-[Basics](#basics)
-Data Structures
-Java
-
-Python
-Miscellaneous Topics
-Helpful Resources
+*[Basics](#basics)
+*[Data Structures](#data-structures)
+*[Java](#java)
+*[Python](#python)
+*[Miscellaneous Topics](#miscellaneous-topics)
+*[Helpful Resources](#helpful-resources)
 
 
 ## Basics
 
 #### Proofs
 Proof by Induction</br>
-1.  Assert the Base Case
-..1.  Establish a theorem tha tis true for some small trivial value
-2.  Inductive Hypothesis 
-..1.  The theorem is assumed to be true for all cases up to some limit k
+1.  Assert the Base Case  Establish a theorem tha tis true for some small trivial value
+2.  Inductive Hypothesis The theorem is assumed to be true for all cases up to some limit k
 3.  Prove True for k+1th case
 
 Proof by Counterexample</br>
