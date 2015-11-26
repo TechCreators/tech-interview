@@ -16,15 +16,15 @@ Helpful Resources
 #### Proofs
 Proof by Induction</br>
 1.  Assert the Base Case
-  *  Establish a theorem tha tis true for some small trivial value
+  1.  Establish a theorem tha tis true for some small trivial value
 2.  Inductive Hypothesis 
-  *  The theorem is assumed to be true for all cases up to some limit k
+  1.  The theorem is assumed to be true for all cases up to some limit k
 3.  Prove True for k+1th case
 
-Proof by Counterexample
+Proof by Counterexample</br>
 1. Present a case where the statement is false
 
-Proof by Contradiction
+Proof by Contradiction</br>
 1.  Assume the theorem is false
 2.  Show that the assumption implies that some known property is false, hence the original assumption was erroneous
 
