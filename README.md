@@ -3,10 +3,34 @@ Technical interviews can be **difficult**, but it doesn't have to be. Everyone h
 
 ### Table of Contents
 *  [Basics](#basics)
+  *  Proofs
+  *  Runtime Estimation
+  *  Recursion
 *  [Data Structures](#data-structures)
+  *  Arrays
+  *  Singly Linked List
+  *  Doubly Linked List
+  *  Stacks
+  *  Queues
+  *  AVL Tree
+  *  Binary Tree
+  *  Min Heap / Max Heap (talk about how we can find the median value using both)
+*  [Sorting](#sorting)
+  *  Bubble Sort O(N<sup>2</sup>
+  *  Selection Sort O(N<sup>2</sup>
+  *  Insertion Sort O(N<sup>2</sup>
+  *  Merge Sort O(NlogN)
+  *  Quick Sort O(NlogN)
 *  [Java](#java)
+  *  Primitive Types
+  *  String
+  *  Array / ArrayList
+  *  ArrayDeque (stack and queue)
 *  [Python](#python)
 *  [Miscellaneous Topics](#miscellaneous-topics)
+  *  How does the DNS work
+  *  Functional Programming
+*  [Pass the Phone Screen](#pass-the-phone-screen)
 *  [Helpful Resources](#helpful-resources)
 
 
@@ -27,7 +51,7 @@ Proof by Contradiction</br>
 *  Assume the theorem is false
 *  Show that the assumption implies that some known property is false, hence the original assumption was erroneous
 
-#### Time Complexity
+#### Runtime Estimation
 
 O(1)
 O(logN)
