@@ -2,12 +2,12 @@
 Technical interviews can be **difficult**, but it doesn't have to be. Everyone has their own approach to acing them. Here's my take...
 
 ### Table of Contents
-*[Basics](#basics)
-*[Data Structures](#data-structures)
-*[Java](#java)
-*[Python](#python)
-*[Miscellaneous Topics](#miscellaneous-topics)
-*[Helpful Resources](#helpful-resources)
+*  [Basics](#basics)
+*  [Data Structures](#data-structures)
+*  [Java](#java)
+*  [Python](#python)
+*  [Miscellaneous Topics](#miscellaneous-topics)
+*  [Helpful Resources](#helpful-resources)
 
 
 ## Basics
