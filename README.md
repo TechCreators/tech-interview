@@ -16,9 +16,9 @@ Helpful Resources
 #### Proofs
 Proof by Induction</br>
 1.  Assert the Base Case
-  1.  Establish a theorem tha tis true for some small trivial value
+..1.  Establish a theorem tha tis true for some small trivial value
 2.  Inductive Hypothesis 
-  1.  The theorem is assumed to be true for all cases up to some limit k
+..1.  The theorem is assumed to be true for all cases up to some limit k
 3.  Prove True for k+1th case
 
 Proof by Counterexample</br>
