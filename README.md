@@ -56,7 +56,10 @@ Proof by Contradiction</br>
 Rules
 *  T1(N) = O(f(N)) and T2(N) = O(g(N))
   *  then the sum of T1 and T2  = O(f(N)+g(N))
-    *  loops right after one another
+'''
+for(int i=0; i<10; i++) System.out.println(i);
+for(int j=10; j>0; j--) System.out.println(j);
+'''
   *  they are also multiplicative T1*T2=O(f(N)g(N))
     *  nested loops
 *  T(N) is a polynomial degree k then T(N) = Theta(Nk)
