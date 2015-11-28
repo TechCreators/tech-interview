@@ -62,14 +62,16 @@ Rules
 *  T(N) is a polynomial degree k then T(N) = Theta(Nk)
 *  logk(N) =O(N) for any constant k.
   *  tells us that logarithms grow very slowly
+   
+  
 ------------------------------
-O(1)            | constant
-O(logN)         | logarithmic
-O(N)            | linear
-O(NlogN)        | 
-O(N<sup>2</sup>)| quadratic
-O(2<sup>N</sup>)| exponential
-O(N<sup>N</sup>)|
+|O(1)            | constant    |
+|O(logN)         | logarithmic |
+|O(N)            | linear      |
+|O(NlogN)        |             |
+|O(N<sup>2</sup>)| quadratic   |
+|O(2<sup>N</sup>)| exponential |
+|O(N<sup>N</sup>)|             |
 
 
 
