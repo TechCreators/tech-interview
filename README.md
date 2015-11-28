@@ -53,13 +53,23 @@ Proof by Contradiction</br>
 
 #### Runtime Estimation
 
-O(1)
-O(logN)
-O(N)
-O(NlogN)
-O(N<sup>2</sup>)
-O(2<sup>N</sup>)
-O(N<sup>N</sup>)
+Rules
+*  T1(N) = O(f(N)) and T2(N) = O(g(N))
+  *  then the sum of T1 and T2  = O(f(N)+g(N))
+    *  loops right after one another
+  *  they are also multiplicative T1*T2=O(f(N)g(N))
+    *  nested loops
+*  T(N) is a polynomial degree k then T(N) = Theta(Nk)
+*  logk(N) =O(N) for any constant k.
+  *  tells us that logarithms grow very slowly
+------------------------------
+O(1)            | constant
+O(logN)         | logarithmic
+O(N)            | linear
+O(NlogN)        | 
+O(N<sup>2</sup>)| quadratic
+O(2<sup>N</sup>)| exponential
+O(N<sup>N</sup>)|
 
 
 
