@@ -74,4 +74,37 @@ Rules
 |O(2<sup>N</sup>)| exponential |
 |O(N<sup>N</sup>)|             |
 
+*  Big O
+  *  T(N) = O(f(N))
+  *  if there are positive constants c and n0 such that T(N) ≤ cf(N) when N ≥ n0
+*  Big Ω
+  *  T(N) = Ω(g(N)) 
+  *  if there are positive constants c and n0 such that T(N) ≥ cg(N) when N ≥ n0
+*  Big Θ
+  *  T(N) = Θ(h(N))
+  *  if and only if T(N) = O(h(N)) and T(N) = Ω(h(N)) 
+*  Little o
+  *  T(N) = o(p(N))
+  *  if for all positive constants c there exists an n0 such that T(N) < cp(N) when N > n0. 
 
+## Miscellaneous Topics
+
+#### How does the DNS work
+
+*  Send a request to the browser
+  *  Checks if it knows URL before it asks the OS
+*  After browser and OS check their cache for the IP of URL
+  *  The OS calls the resolver 
+*  Resolver checks its cache
+*  Resolver server is usually your ISP
+  *  All resolvers must know where to locate the root server
+*  Root server knows where to locate the .COM TLD (top level domain)
+*  The root server can tell you where the .COM TLD server is
+*  There are 13 Root servers that sit on top of the DNS hierarchy of TLDs
+  *  root-servers.net to m.root-servers.net
+*  Internet Corporation for Assigned Names and Numbers coordinates most TLDs
+*  When a domain is purchased, the domain registrar reserves the name and tells the TLD the authoritative name server that it’s linked to
+*  The Authoritative name server knows the IP address
+  *  no cached values
+  *  no asking someone else
+  *  only the real deal
