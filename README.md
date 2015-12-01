@@ -97,6 +97,19 @@ for(int i=0; i<10; i++) {
   *  T(N) = o(p(N))
   *  if for all positive constants c there exists an n0 such that T(N) < cp(N) when N > n0. 
 
+
+## Data Structures
+
+#### Arrays
+#### Singly Linked List
+#### Doubly Linked List
+#### Stacks
+#### Queues
+#### AVL Tree
+#### Binary Tree
+#### Min Heap / Max Heap (talk about how we can find the median value using both)
+
+
 ## Miscellaneous Topics
 
 #### How does the DNS work
@@ -137,4 +150,12 @@ for(int i=0; i<10; i++) {
   *  When you return a single value from an array
 
 **Source:** http://www.smashingmagazine.com/2014/07/dont-be-scared-of-functional-programming/ 
+
+## Helpful Resources
+
+Dynamic Programming
+*  https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
+
+
+
 
