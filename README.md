@@ -64,7 +64,9 @@ for(int j=10; j>0; j--) System.out.println(j);
 ```java
 for(int i=0; i<10; i++) {
     System.out.println(i);
-    for(int j=10; j>0; j--) System.out.println(j);
+    for(int j=10; j>0; j--) {
+        System.out.println(j);
+        }
     }
 ```
 *  T(N) is a polynomial degree k then T(N) = Theta(Nk)
@@ -116,3 +118,22 @@ for(int i=0; i<10; i++) {
   *  no cached values
   *  no asking someone else
   *  only the real deal
+  
+#### Functional Programming
+
+*  Data in functional programs must be immutable
+  *  If you need to manipulate some data in an array, just make a new array with the updated values instead of revising the original array
+*  Functional programs should be stateless
+  *  They should perform every task as if for the first time
+  *  “Ignorant of the past”
+  *  Function will operate only on data passed in as arguments and never on outside values to perform its calculations
+*  When programming in a functional style, you’re always looking for simple, repeatable actions that can be abstracted out into a function
+*  Rules for best practice:
+  *  All of your functions must accept at least one argument
+  *  All of your functions must return data or another function
+  *  No loops!
+*  Since you can’t use loops...use recursion
+*  Reduction
+  *  When you return a single value from an array
+**Source:** http://www.smashingmagazine.com/2014/07/dont-be-scared-of-functional-programming/ 
+
