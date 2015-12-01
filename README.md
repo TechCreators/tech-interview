@@ -135,5 +135,6 @@ for(int i=0; i<10; i++) {
 *  Since you can’t use loops...use recursion
 *  Reduction
   *  When you return a single value from an array
+
 **Source:** http://www.smashingmagazine.com/2014/07/dont-be-scared-of-functional-programming/ 
 
