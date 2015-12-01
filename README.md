@@ -156,12 +156,4 @@ for(int i=0; i<10; i++) {
 Dynamic Programming
 *  https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
 
-### + This is a first question
-This is the first line of an answer to the question above. This is a second line of the answer.
-
-* Bullet points
-* Can be used too
-
-### + This is a second question
-This is a one line answer to the question above.
-
+>! Spoiler text
